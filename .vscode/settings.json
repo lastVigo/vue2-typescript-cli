@@ -1,0 +1,34 @@
+{
+    "vetur.format.defaultFormatterOptions": {
+        "js-beautify-html": {
+            // force-aligned | force-expand-multiline
+            "wrap_attributes": "force-aligned"
+        },
+        "prettyhtml": {
+            "printWidth": 100,
+            "singleQuote": false,
+            "wrapAttributes": false,
+            "sortAttributes": true
+        },
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "javascriptreact",
+        {
+            "language": "vue",
+            "autoFix": true
+        }
+    ],
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    //保存时eslint自动修复错误
+    "eslint.autoFixOnSave": true,
+    "tslint.autoFixOnSave": true,
+    //开启 eslint 支持
+    // "prettier.eslintIntegration": true,
+    // //使用单引号
+    // "prettier.singleQuote": true,
+    // //结尾不加分号
+    "prettier.semi": false,
+}
